@@ -2,9 +2,36 @@ body{
     background-color: black;
     color: white;
 }
-/* div{
-    display: inline;
-} */
-.container{
-float: left;
+
+
+div{
+ float: left;
 }
+ /* .nav-item{
+  margin-left: 60px; 
+} 
+.nav{
+    margin-left: 90px;
+} */
+.item{
+    padding: 0 60px;
+}
+.botao{
+   margin: 0 200px;
+}
+.dois{
+    font-size: x-large;
+    width: 100px;
+    padding:30px 60px;
+}
+/* .um{
+    width: 200px;
+    height: 200px;
+    padding:0 15px;
+}
+
+.tres{
+    width: 200px;
+
+} */
+
