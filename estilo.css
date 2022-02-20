@@ -1,18 +1,54 @@
 body{
     background-color: black;
     color: white;
+     margin:0;
+    padding:0; 
+    text-align:center; 
+    font-family: Montserrat
 }
-
 
 div{
- float: left;
+ float: center;
 }
- /* .nav-item{
-  margin-left: 60px; 
+ #tudo{
+    width: 80%;
+    margin: 0 auto;			
+    padding: 10px;
+    text-align:center; /* "remédio" para o hack do IE */   
 } 
-.nav{
-    margin-left: 90px;
-} */
+ .nav{
+    margin-left: 0px;
+    padding: 5% 10%;
+ }
+  .nav-item-um {
+    padding-right: 10%;
+
+ } 
+ .dois{
+     font-size: xx-large ;
+ }
+
+
+ /* .nav-item-um{
+padding-right: 5%; 
+}  */
+.nav-item-botao{
+    padding-left: 15%;
+}
+header{
+    background-image: url(imagens/assets/background.png);
+}
+/* .col-3{
+
+  width:"10";
+  height:"10";
+    /* viewBox:"0 0 202 202";}
+     */
+
+
+/* .sgvrocket{
+    margin-left:180px;
+}
 .item{
     padding: 0 60px;
 }
@@ -23,7 +59,7 @@ div{
     font-size: x-large;
     width: 100px;
     padding:30px 60px;
-}
+} */
 /* .um{
     width: 200px;
     height: 200px;
