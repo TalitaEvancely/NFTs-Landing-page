@@ -1,73 +1,44 @@
 body{
-    background-color: black;
-    color: white;
-     margin:0;
-    padding:0; 
-    text-align:center; 
-    font-family: Montserrat
-}
-
-div{
- float: center;
-}
- #tudo{
-    width: 80%;
-    margin: 0 auto;			
-    padding: 10px;
-    text-align:center; /* "remédio" para o hack do IE */   
-} 
- .nav{
-    margin-left: 0px;
-    padding: 5% 10%;
- }
-  .nav-item-um {
-    padding-right: 10%;
-
- } 
- .dois{
-     font-size: xx-large ;
- }
-
-
- /* .nav-item-um{
-padding-right: 5%; 
-}  */
-.nav-item-botao{
-    padding-left: 15%;
+  background-color: black;  
+  height: 100vh;
+  margin: 0px 100px;
+  color: white;
 }
 header{
     background-image: url(imagens/assets/background.png);
 }
-/* .col-3{
-
-  width:"10";
-  height:"10";
-    /* viewBox:"0 0 202 202";}
-     */
-
-
-/* .sgvrocket{
-    margin-left:180px;
+.cor{
+    color: red;
 }
-.item{
-    padding: 0 60px;
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
 }
-.botao{
-   margin: 0 200px;
+.box2{
+    font-size: 30px;
+    padding: 0 150px;
 }
-.dois{
-    font-size: x-large;
-    width: 100px;
-    padding:30px 60px;
-} */
-/* .um{
-    width: 200px;
-    height: 200px;
-    padding:0 15px;
+.img1{
+    padding-top: 15px;
 }
-
-.tres{
-    width: 200px;
-
-} */
-
+  
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu ul li {
+display: inline;
+font-size: 18px;
+}
+.menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+    text-decoration:none;
+    color: white;
+}
