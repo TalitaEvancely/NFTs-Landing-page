@@ -10,6 +10,11 @@ header{
 .cor{
     color: red;
 }
+.text{
+    text-decoration: solid;
+    font-size: 30px;
+    margin-left: 15%;
+}
 .container1{
     display: flex;
     justify-content: space-between;
@@ -20,12 +25,24 @@ header{
     padding: 0 150px;
 }
 .img1{
-    padding-top: 15px;
+    padding-top: 20px;
+}
+.imgastro{
+    height: 150px;
+    right: 150px;
+    padding: 0px 3px;
+}
+.cjimagens{
+  margin-top: 15px;  
+}
+.dois{
+    margin-top: 40px;
 }
   
 .menu {
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
 }
 .menu ul{
     padding:0px;
