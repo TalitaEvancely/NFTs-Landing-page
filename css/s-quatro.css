@@ -1,0 +1,40 @@
+.number{
+ 
+    background-color: blue;
+    padding: 20px 25px;
+    height: 55%;
+    right: 50%;
+    }
+     .caixa{
+        display: inline-flex;
+        flex-direction: row;
+        height: 55%;
+        right: 50%;
+    }
+     .texto {
+    
+    display: flex;
+    
+    } 
+    .selected{
+    background-color: blueviolet;
+    
+    
+    }
+    .texto2{
+    background-color: brown;
+    
+    }
+    .quatro{
+        padding-top: 80px;
+    }
+    .container{
+        display: flex;
+    }
+    .img2{
+        height: 150px;
+        right:150px ;
+        margin-top: 200px;
+        padding: 55px 0;
+    }
+    

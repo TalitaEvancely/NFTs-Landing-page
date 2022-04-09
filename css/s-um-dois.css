@@ -1,0 +1,53 @@
+/* section 1*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.menu ul{
+    padding:0px;
+    margin: 0px;
+    
+}
+.menu li {
+display: inline;
+font-size: 20px;
+margin-right: 30px;
+}
+
+ul li a {
+	display: inline-block;
+    text-decoration:none;
+    color: white;
+}
+
+
+/*section 2*/
+
+.cor{
+    color: red;
+}
+
+.dois {
+    margin-top: 40px;
+}
+
+.box {
+    align-items: flex-start;
+    height: 200px;
+    padding: 0 15px;
+  }
+  .box2{
+    font-size: 30px;
+    padding: 0 150px;
+}
+.img1{
+    padding-top: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}

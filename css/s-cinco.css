@@ -1,0 +1,21 @@
+.imgastro{
+    height: 150px;
+    right: 150px;
+    padding: 0px 3px;
+}
+
+.cor1{
+    color: gray;
+}
+.text{
+    text-decoration: solid;
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+.apastro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
