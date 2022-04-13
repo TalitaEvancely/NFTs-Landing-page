@@ -1,0 +1,45 @@
+.seis li {
+    
+    list-style-type: none;
+    /* display: flexbox;
+    flex-direction: row;      */
+}
+
+.melhoresArtistas{
+     display: flex ; 
+    flex-wrap:wrap;
+    /* align-items: center; */
+   
+    }
+.cartaoartista:hover
+    {
+        transform: scale(1.05);
+    }
+    .cartaoartista{
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.656);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    color: #FFFFFF;
+    cursor: pointer;/* o cursor é uma mãozinha */
+    width: 250px;
+    height: 100px;
+    min-height: 70px;
+  
+    }
+
+
+.seis .melhoresArtistas img{
+    width: 25%;
+    border-radius: 50%;
+}
+/* .seis .melhoresArtistas span{
+
+} */
+  /* .seis .melhoresArtistas .cartaoartista.ativo{
+        background-color:white ;
+    } */
+
+/* .seis .melhoresArtistas .cartaoartista span{
+    
+} */
+
