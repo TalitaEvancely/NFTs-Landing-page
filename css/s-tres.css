@@ -1,0 +1,23 @@
+.tres{
+    display: flex;
+    justify-content: center;
+}
+.containerTres{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* background-color: aqua; */
+    max-width: 90%; ;
+}
+.center{
+    justify-content: center;
+}
+
+.imgastro{
+     margin-top: 15px;
+     height: 30px;
+     width: 200px;
+    
+    
+}

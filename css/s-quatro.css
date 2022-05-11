@@ -1,40 +1,53 @@
+.quatro{
+    padding-top: 20px;
+    justify-content: flex-end;
+    height: 400px;
+    width:100% ;
+    /* background-color: blueviolet; */
+}
+.container{
+    display: flex;
+    /* height: 500px;
+    width:90% ; */
+    /* background-color: rgb(70, 68, 68); */
+}
 .number{
- 
-    background-color: blue;
-    padding: 20px 25px;
-    height: 55%;
-    right: 50%;
+     
+     /* background-color: blue;   */
+     color: #fff;
+     margin-left: 60px;
+    margin-right: 50px;
+    font-size: 20px;
+   
+     padding: 20px 10px 5px 50px;  /*top, right, bottom, left */
+  /* height: 100%; 
+    width: 300px;  */
     }
-     .caixa{
-        display: inline-flex;
+     .caixaTextosEimg{
+        display: flex;
         flex-direction: row;
         height: 55%;
-        right: 50%;
+        right: 50%; 
+        /* background-color: yellow; */
+    }
+    .wrap{
+        flex-wrap: wrap;
     }
      .texto {
-    
-    display: flex;
+        display: flex;
+        /* background-color: orange; */
+    /* height: 200px;
+    width:800px ; */
     
     } 
-    .selected{
-    background-color: blueviolet;
-    
-    
+    .textosquatro{
+        margin-right:150px ;
+        /* background-color: red; */
     }
-    .texto2{
-    background-color: brown;
-    
-    }
-    .quatro{
-        padding-top: 80px;
-    }
-    .container{
-        display: flex;
-    }
-    .img2{
-        height: 150px;
-        right:150px ;
-        margin-top: 200px;
-        padding: 55px 0;
-    }
+   
+
+     .cor1{
+         color: #cccc;
+         font-size: 15px;
+     }
     

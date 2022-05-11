@@ -4,9 +4,7 @@
     padding: 0px 3px;
 }
 
-.cor1{
-    color: gray;
-}
+
 .text{
     text-decoration: solid;
     font-size: 30px;
@@ -15,7 +13,7 @@
 
 .apastro{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 40px;
     
 }

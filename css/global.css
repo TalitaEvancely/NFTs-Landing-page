@@ -6,17 +6,16 @@ body{
     padding: 0 15px;
     
   }
- header{
-    background-image: url(imagens/assets/background.png);
+ .background{
+  background-image: url("background.png"); 
+  
 } 
 
 /* .cjimagens{
   margin-top: 15px;  
 } */
 
-/* .tres{
-    display: flex;
-} */
+
 
   /* .box>*:first-child {
       align-self: stretch;
