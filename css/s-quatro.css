@@ -7,9 +7,7 @@
 }
 .container{
     display: flex;
-    /* height: 500px;
-    width:90% ; */
-    /* background-color: rgb(70, 68, 68); */
+    
 }
 .number{
      
@@ -18,28 +16,32 @@
      margin-left: 60px;
     margin-right: 50px;
     font-size: 20px;
-   
-     padding: 20px 10px 5px 50px;  /*top, right, bottom, left */
+    padding: 20px 10px 5px 50px;  /*top, right, bottom, left */
   /* height: 100%; 
     width: 300px;  */
     }
      .caixaTextosEimg{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         height: 55%;
         right: 50%; 
         /* background-color: yellow; */
     }
-    .wrap{
-        flex-wrap: wrap;
-    }
+    /* .wrap{
+        
+    } */
      .texto {
-        display: flex;
+    display: flex;
+    justify-content: space-around ;
         /* background-color: orange; */
     /* height: 200px;
     width:800px ; */
     
     } 
+    /* .texto:nth-child(3){
+     flex-shrink: 1;
+    } */
     .textosquatro{
         margin-right:150px ;
         /* background-color: red; */

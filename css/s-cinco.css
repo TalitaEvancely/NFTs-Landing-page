@@ -1,3 +1,10 @@
+.apastro{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+   
+}
+
 .imgastro{
     height: 150px;
     right: 150px;
@@ -11,9 +18,3 @@
     margin-left: 15%;
 }
 
-.apastro{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    
-}

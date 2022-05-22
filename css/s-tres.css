@@ -6,13 +6,14 @@
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    gap: .5rem;
+    /* margin-bottom: 50px; */
     /* background-color: aqua; */
     max-width: 90%; ;
 }
-.center{
+/* .center{
     justify-content: center;
-}
+} */
 
 .imgastro{
      margin-top: 15px;
