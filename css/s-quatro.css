@@ -6,20 +6,34 @@
     /* background-color: blueviolet; */
 }
 .container{
+    background-color: blue;
     display: flex;
+   
     
 }
 .number{
-     
-     /* background-color: blue;   */
+     background-color: brown;
      color: #fff;
-     margin-left: 60px;
-    margin-right: 50px;
+     /* margin-left: 60px; */
+     display: flex;
+     flex-direction: column;
+    /* justify-content: space-around; */
+    /* margin: 50px 0 50px 0; */
     font-size: 20px;
-    padding: 20px 10px 5px 50px;  /*top, right, bottom, left */
+     /* padding: 0px 10px 0px 50px;   */
+     /*top, right, bottom, left */
   /* height: 100%; 
     width: 300px;  */
     }
+    /* .cadaNum{
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding: 0;
+        margin: 5px;
+    } */
      .caixaTextosEimg{
         display: flex;
         flex-direction: row;
@@ -28,9 +42,7 @@
         right: 50%; 
         /* background-color: yellow; */
     }
-    /* .wrap{
-        
-    } */
+    
      .texto {
     display: flex;
     justify-content: space-around ;
@@ -39,10 +51,12 @@
     width:800px ; */
     
     } 
-    /* .texto:nth-child(3){
-     flex-shrink: 1;
-    } */
+    .alinhaTexto{
+        margin-bottom: 15px;
+    }
     .textosquatro{
+        display: flex;
+        justify-content: space-around;
         margin-right:150px ;
         /* background-color: red; */
     }
