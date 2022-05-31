@@ -1,0 +1,39 @@
+.sete{
+
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 0;
+    /*top, right, bottom, left */
+    width: 100%;
+}
+.logoNFT{
+    padding: 10px 10px 30px 10px;
+}
+.formEmenu{
+    background-color: aqua;
+    display: flex;
+    padding-top: 50px;
+    
+}
+.menufooter{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left: 50px;
+    width: 100%;
+}
+.fila{
+    background-color:yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 15px;
+}
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+}
