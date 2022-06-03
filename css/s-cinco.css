@@ -1,28 +1,80 @@
+/*TERMINADO*/
+
+.cinco{
+    width: 100%;
+    margin-top: 50px;
+}
 .apastro{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
-    
     justify-content: space-around; 
-    padding-top: 40px;
+    padding-top: 40px; 
+ }
+ .titulo img{
+    height: 20px;
+ }
+ 
+  .item{
+  width: 250px;   
+}    
+
+.item p{
+    padding: 0;
+    /* margin:0; */
+}
+.titulo h2{
+    padding: 0;
+    margin: 0 50px 0 0;
+   /*top, right, bottom, left */
+
+}
+ .titulo{
+    display: flex;
+    align-items: center; 
+    /* gap: .4rem; */
+    flex-wrap: wrap;
    
-}
-.cinco .item{
-    background-color: blue;
-}
+ }
+ .nome{
+     margin-right: 60px;
+ }
+
+ .apastro .parte1{
+     /* background-color: brown; */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 500px;
+     width: 450px;
+     border-right: 0.5px solid #fff;
+ }
+
+ .apastro .parte2{
+     /* background-color: yellow; */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 500px;
+     width: 300px;
+ }
+
+
 .cinco .titulo{
     display: flex;
     flex-wrap: wrap;
 }
-.imgastro{
+.imgastro img{
     height: 150px;
-    width:150px; 
-    padding: 0px 3px;
+    /* width:150px;  */
+    /* padding: 0px 3px; */
 }
 
 
 .text{
     text-decoration: solid;
-    font-size: 30px;
-    margin-left: 15%;
+    font-size: 40px;
+ 
+    margin:  100px 0 60px 5% ;
+    /*top, right, bottom, left */
 }
 

@@ -1,21 +1,14 @@
  .tres{
-     background-color: aliceblue; 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; 
-    align-items:center;
-
-   
     
 } 
 
 
 .imgAstro{
-      margin: 15px;
-    
-     width: 20%;
-     flex-grow: 3;
-    
-    
-    
+   margin: 15px;
+   width: 20%; 
+       
 }

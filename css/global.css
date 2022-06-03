@@ -15,6 +15,9 @@ body{
   background-image: url("background.png"); 
   
 } 
+.cor{
+color: #F08080;
+}
 
 /* .cjimagens{
   margin-top: 15px;  
