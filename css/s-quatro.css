@@ -3,23 +3,21 @@
     justify-content: flex-end;
     height: 400px;
     width:100% ;
-    /* background-color: blueviolet; */
+    
 }
-.container{
-    /* background-color: blue; */
-    margin-bottom: 0;
-    padding-bottom: 0;
+.containerQuatro{
+    margin: 0 0 0 60px;
+    padding: 0 0 0 50px;
     display: flex;
-    border-bottom: 0.2px solid #fff;
+    border-bottom: 0.2px solid gray;
    
     
 }
 .number{
-      /* background-color: brown;  */
      color: #fff;
      display: flex;
      flex-direction: column;
-     border-right: 1px solid #fff;
+     border-right: 1px solid gray;
      font-size: 20px;
       padding: 70px 50px 0px 10px; 
      /*top, right, bottom, left */
@@ -28,8 +26,7 @@
     .number h2{
         padding: 0;
         margin: 0;
-        /* background-color: aliceblue; */
-    }
+ }
     .number p{
         padding-top: 0;
         margin-top: 0;
@@ -42,7 +39,7 @@
         flex-direction: row;
         flex-wrap: wrap;
        margin-top: 30px;
-     /* background-color: yellow;  */
+     
     }
     .caixaTextosEimg img{
         padding-top: 60px;
@@ -54,9 +51,6 @@
     display: flex;
     justify-content: space-around ;
     margin-left: 30px;
-        /* background-color: orange; */
-   
-    
     } 
     .alinhaTexto{
         margin-bottom: 15px;
@@ -65,7 +59,6 @@
         display: flex;
         justify-content: space-around;
         margin-right:150px ;
-        /* background-color: red; */
     }
    
 

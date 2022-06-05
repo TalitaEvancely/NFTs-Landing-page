@@ -5,9 +5,9 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
     color: #fff;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     
     
   }
@@ -15,8 +15,12 @@ body{
   background-image: url("background.png"); 
   
 } 
-.cor{
-color: #F08080;
+.corVermelha{
+color: #FA6668;
+}
+
+.corcinza{
+  color: gray;
 }
 
 /* .cjimagens{

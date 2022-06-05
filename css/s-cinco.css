@@ -1,11 +1,9 @@
-/*TERMINADO*/
 
 .cinco{
     width: 100%;
     margin-top: 50px;
 }
 .apastro{
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-around; 
     padding-top: 40px; 
@@ -20,7 +18,6 @@
 
 .item p{
     padding: 0;
-    /* margin:0; */
 }
 .titulo h2{
     padding: 0;
@@ -31,7 +28,6 @@
  .titulo{
     display: flex;
     align-items: center; 
-    /* gap: .4rem; */
     flex-wrap: wrap;
    
  }
@@ -40,17 +36,15 @@
  }
 
  .apastro .parte1{
-     /* background-color: brown; */
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      height: 500px;
-     width: 450px;
+     width: 550px;
      border-right: 0.5px solid #fff;
  }
 
  .apastro .parte2{
-     /* background-color: yellow; */
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -65,15 +59,13 @@
 }
 .imgastro img{
     height: 150px;
-    /* width:150px;  */
-    /* padding: 0px 3px; */
+    
 }
 
 
 .text{
     text-decoration: solid;
     font-size: 40px;
- 
     margin:  100px 0 60px 5% ;
     /*top, right, bottom, left */
 }

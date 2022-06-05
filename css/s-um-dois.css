@@ -1,8 +1,11 @@
+
 /* section 1*/
 .menu {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+    margin: 0 60px 0 60px;
+        /*top, right, bottom, left */
 }
 
 .menu button{
@@ -32,8 +35,9 @@ ul li a {
 /*section 2*/
 .containerSection2{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 40px;
     
 }
@@ -41,19 +45,31 @@ ul li a {
   
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 380px;
 }
 .box1 img{
     width: 140px;
-    height:90px;
+    }
+.imagemEtextoBox1{
+    display: flex;
+    align-items: flex-start;
 }
+
+.imagemEtextoBox1 p{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
 .box2{
-    font-size: 40px;
-    max-width: 350px;
+    font-size: 45px;
+    width: 400px;
 }
 
 .box2 strong{
-    color: #B22222;
+    color: #e22424;
 }
 
 
@@ -62,17 +78,6 @@ ul li a {
     margin-top: 40px;
 }
 
-/* .box {
-    align-items: flex-start;
-    height: 200px;
-    padding: 0 15px;
-  }
-  .box2{
-    font-size: 30px;
-    padding: 0 150px;
-}
-.img1{
-    padding-top: 20px;
-} */
+
 
 
