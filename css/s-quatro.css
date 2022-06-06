@@ -44,7 +44,6 @@
     .caixaTextosEimg img{
         padding-top: 60px;
         
-           
     }
 
     .texto {
@@ -56,9 +55,8 @@
         margin-bottom: 15px;
     }
     .textosquatro{
-        display: flex;
-        justify-content: space-around;
         margin-right:150px ;
+        text-align: justify;
     }
    
 
