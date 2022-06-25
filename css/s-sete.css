@@ -4,13 +4,11 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     display: flex;
     flex-direction: column;
-    padding: 30px 0 0 0;
-    /*top, right, bottom, left */
     width: 100%;
 }
 
 .containerSete{
-    padding: 0 30px 0 30px ;
+    padding: 0 30px;
     /*top, right, bottom, left */
 }
 
@@ -19,7 +17,6 @@
     border-bottom: 1px solid gray;
 }
 .formEmenu{
-     /* background-color: aqua;  */
     display: flex;
     align-items: center;
     padding-top: 50px;
@@ -65,7 +62,6 @@
     width: 100%;
 }
 .fila{
-    /* background-color:yellowgreen; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;

@@ -1,5 +1,9 @@
 /*Mobile*/
 @media(max-width:992px){
+    body{
+        padding: 0;
+        margin:0;
+    }
 /* sessão 1  ok */
 .menu{
     flex-direction: column;
@@ -127,30 +131,56 @@
     height: ;  
 } */
 /* sessão 6 */
+.tituloPrincipalSeis {
+    padding: 10px;
+}
 .melhoresArtistas{
     justify-content: center;
 }
+.maisSobre {
+    padding:10px ;
+}
+.text{margin: 0;}
 
 /* sessão 7 */
+.sete{
+    width: 100%;
+}
 .formEmenu{
     display: flex;
    flex-direction: column;
    align-items: center;
-  
+   border-bottom: none;
+   padding-top: 0;
 }
 .form form {
     justify-content: center;
 }
-.formEmenu{
-    border-bottom: none;
-}
+
 .menufooter{
     display: flex;
     justify-content: center;
     justify-items: center;
-    margin-left: 30px;
+    margin-left: 10px;
     width: 100%;
     border-left: none;
 }
+.fila{
+    padding: 0;
+    margin: 10px;
+}
+.logoNFT {
+    padding: 20px 0px ;
+}
+.logoNFT {
+    height: 15px;
+}
+.form {
+    height: 50px
+}
 
+.form label{
+    padding: 15px;
+    font-size: 15px;
+}
 }
