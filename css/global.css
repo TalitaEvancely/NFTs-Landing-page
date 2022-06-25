@@ -5,7 +5,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    /* margin: 0px 100px; */
+    /* margin: 0px 50px;  */
     color: #fff;
     /* padding: 0 15px; */
     
@@ -23,17 +23,6 @@ color: #FA6668;
   color: gray;
 }
 
-/* .cjimagens{
-  margin-top: 15px;  
-} */
 
-
-
-  /* .box>*:first-child {
-      align-self: stretch;
-  } */
-  /* .box .selected {
-      align-self: center;
-      /* padding-top: 80px;  } */
 
   

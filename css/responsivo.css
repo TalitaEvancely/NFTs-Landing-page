@@ -11,6 +11,9 @@
 .menu button{
     margin-top: 10px;
 }
+.background background {
+    max-width: 100%;
+}
 
 
 /* sessão 2  ok */
@@ -62,11 +65,21 @@
     padding-top: 0;
     
 }
+.bannerHnegro{
+    display: none;
+}
+.caixaTextosEimg{
+    flex-wrap: nowrap;
+    padding:10px ;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
 .texto{ 
    
     flex-direction: column;
     align-items: flex-end;
-    width: 150px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -74,12 +87,12 @@
     margin:0;
     padding: 0;
 }
-.caixaTextosEimg img{
+/* .caixaTextosEimg img{
     width: 80%;
-}
+} */
 /* sessão 5 */
 .cinco{
-    margin-top: 350px;
+     margin-top: 200px; 
 }
 .text{
     font-size: 20px;
@@ -95,15 +108,16 @@
     height: 100px; 
 }
 .apastro .parte1{
-    border-right: none;
+    border: none;
     width: 50%;
     height: 50%;
     justify-content: center;
+   
     
 }
 
 .apastro .parte2{
-    border-right: none;
+ 
     width: 50%;
     height: 50%;
     justify-content: center;
@@ -113,9 +127,30 @@
     height: ;  
 } */
 /* sessão 6 */
-
+.melhoresArtistas{
+    justify-content: center;
+}
 
 /* sessão 7 */
-
+.formEmenu{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.form form {
+    justify-content: center;
+}
+.formEmenu{
+    border-bottom: none;
+}
+.menufooter{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30px;
+    width: 100%;
+    border-left: none;
+}
 
 }

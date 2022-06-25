@@ -27,7 +27,6 @@
     
 }
 .form{
-    /* background-color: blue; */
     height: 150px;
     width: 350px;
     
@@ -59,7 +58,6 @@
 }
 
 .menufooter{
-    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-around;
     justify-items: center;
