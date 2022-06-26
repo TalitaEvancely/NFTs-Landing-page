@@ -1,17 +1,13 @@
-.quatro{
+/* .quatro{
     padding-top: 20px;
-    justify-content: flex-end;
-    height: 400px;
-    width:100% ;
-    
-}
+      
+} */
 .containerQuatro{
-    margin: 0 0 0 60px;
-    padding: 0 0 0 50px;
+    margin-left: 50px;
+    padding-left: 50px;
     display: flex;
     border-bottom: 0.2px solid gray;
-   
-    
+  
 }
 .number{
      color: #fff;
@@ -41,10 +37,12 @@
        margin-top: 30px;
      
     }
+    .alinhaTexto a{
+        text-decoration: none;
+    }
     .caixaTextosEimg img{
         padding-top: 60px;
-        
-    }
+       }
 
     .texto {
     display: flex;

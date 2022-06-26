@@ -1,8 +1,6 @@
-/*Não finalizado*/
 .tituloPrincipalSeis{
 display: flex;
 justify-content: center;
-padding: 50px;
 font-size: 20px;
 }
 .tituloPrincipalSeis strong{
@@ -12,24 +10,18 @@ font-size: 20px;
 .seis ul li a {
     text-decoration: none;
     list-style-type: none;
-    
 }
 
 .melhoresArtistas{
      display: flex ; 
     flex-wrap:wrap;
-    
-   
-    }
+}
  .cartaoartista:hover{
      transform: scale(1.05);
      background-color:#FA6668; 
         
  } 
-
-
-    
-    .cartaoartista{
+.cartaoartista{
     margin-bottom: 40px;
     background-color: #363636;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
@@ -48,9 +40,7 @@ font-size: 20px;
    .textoCartao{
        display: flex;
        flex-direction: column;
-       
-       
-   }
+  }
 
 .seis .melhoresArtistas img{
     width: 25%;
@@ -73,4 +63,3 @@ font-size: 20px;
 .maisSobre svg{
     height: 12px ;
 }
-

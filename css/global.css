@@ -5,12 +5,14 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    /* margin: 0px 50px;  */
     color: #fff;
-    /* padding: 0 15px; */
-    
-    
-  }
+    }
+
+section{
+  max-height: 150vh;
+  margin-top: 50px;
+}
+
  .background{
   background-image: url("background.png"); 
   

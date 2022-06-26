@@ -15,8 +15,11 @@
 .menu button{
     margin-top: 10px;
 }
-.background background {
-    max-width: 100%;
+.imgAstro:nth-child(4),
+.imgAstro:nth-child(5),
+.imgAstro:nth-child(6),
+.imgAstro:nth-child(7){
+    display: none;
 }
 
 
@@ -42,43 +45,49 @@
 /* sessão 3 ok */
 .tres{
    flex-direction: column;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    align-items: center;
    width: 800px;
 
 }
 /* sessão 4 ok*/
-.containerQuatro{
-    flex-direction: column;
-    padding-bottom: 300px;
-    }
+.quatro{
+    margin-top: 0;
+}
+.containerQuatro {
+    flex-direction: row;
+    margin-left: 20px;
+    padding-left: 20px;
+   
+}
+
+    
 .number{
     border-right: none;
-    margin-bottom: 60%;
-    height: 180px;
+    margin-bottom: 80%;
+    /* height: 180px; */
     padding: 0;
+   
 }
+
+.number p {
+      margin-bottom: 20px;
+}
+ 
 .caixaTextosEimg{
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    padding:0 ;
     margin: 0;
-    
+    justify-content: center;
+    text-align: center;
+    width: 70%;
 }
 
 .caixaTextosEimg img{
+    width: 300px;
     padding-top: 0;
-    
-}
-.bannerHnegro{
-    display: none;
-}
-.caixaTextosEimg{
-    flex-wrap: nowrap;
-    padding:10px ;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-}
+    margin-top: 0;
+ } 
 .texto{ 
    
     flex-direction: column;
@@ -91,35 +100,42 @@
     margin:0;
     padding: 0;
 }
-/* .caixaTextosEimg img{
-    width: 80%;
-} */
+
 /* sessão 5 */
-.cinco{
-     margin-top: 200px; 
-}
+
 .text{
     font-size: 20px;
     text-align: center;
     margin-top: 130px;
 }
 .apastro{
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
 }
 
 .imgastro img{
-    height: 100px; 
+    height: 50px; 
 }
+.titulo{
+    flex-direction: column;
+}
+.titulo h2{
+    font-size: 20px;
+}
+.titulo img{
+   display: none;
+}
+.item{
+    margin-left: 20px;
+}
+
 .apastro .parte1{
-    border: none;
     width: 50%;
     height: 50%;
     justify-content: center;
-   
-    
-}
-
+    align-items: center;
+ }
+ 
 .apastro .parte2{
  
     width: 50%;
