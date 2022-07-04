@@ -29,7 +29,7 @@ margin-right: 30px;
 ul li a {
 	display: inline-block;
     text-decoration:none;
-    color: white;
+    color: #fff;
 }
 
 
@@ -70,7 +70,7 @@ ul li a {
 }
 
 .box2 strong{
-    color: #e22424;
+    color: #ff5b50;
 }
 
 
