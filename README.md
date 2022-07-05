@@ -10,6 +10,7 @@
 
 ## CSS
 - Através das classes e das proprias 'tags' html, a pagina foi estilizada.
+- O código foi re-fatorado em nove partes para facilitar o entendimento e atualizações futuras.
 - A landing Page é resposiva, podendo ser vista no modo 'tablet' e 'mobile'.
 - Algumas imagens foram retiradas no modo mobile.
  
